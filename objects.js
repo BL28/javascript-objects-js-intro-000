@@ -1,3 +1,10 @@
-var playlist = {
-  artist: 'Taylor Swift'
+var playlist = new Object();
+
+function updatePlaylist (playlist, artistName, songTitle){
+  
 }
+
+function removeFromPlaylist (playlist, artistName) {
+  
+}
+
