@@ -1,7 +1,7 @@
 var playlist = {'Taylor Swift':'Delicate'};
 
 function updatePlaylist(playlist, artistName, songTitle){
-   return playlist.assign({}, playlist, { [artistName]: songTitle})
+   return playlist.assign({}, playlist, {[artistName]: songTitle});
 }
 
 function removeFromPlaylist(playlist, artistName){
