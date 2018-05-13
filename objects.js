@@ -4,7 +4,7 @@ var playlist = {
 }
 
 function updatePlaylist(playlist, artistName, songTitle){
-    return playlist.assign({artistName}, {songTitle});
+    playlist.artistName = artistName;
 }
 
 function removeFromPlaylist (playlist, artistName) {
